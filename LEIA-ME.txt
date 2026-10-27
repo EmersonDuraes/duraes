@@ -1,0 +1,22 @@
+SITE EMERSON DURÃES — VERSÃO CELULAR (estilo app)
+
+COMO ABRIR
+Abra index.html. No celular, publique a pasta inteira em uma hospedagem (https) e abra o link.
+Para usar como app: no navegador do celular, "Adicionar à tela inicial"
+(iPhone: Safari > Compartilhar > Adicionar à Tela de Início · Android: Chrome > menu > Instalar app).
+Depois da primeira visita, o site também abre sem internet.
+
+PÁGINAS (HTML independentes)
+index.html · areas.html · sobre.html · contato.html
+direito-civil.html · direito-trabalhista.html · direito-previdenciario.html
+direito-de-familia.html · direito-empresarial.html
+Compartilham css/app.css, js/app.js, manifest.webmanifest, sw.js e a pasta img/ (ícones).
+
+PREENCHER
+- js/app.js, topo: whatsapp, telefone (só dígitos, com DDI+DDD: 5511999999999) e email.
+  Os botões de WhatsApp/Ligar/E-mail e o formulário passam a funcionar sozinhos.
+- Trechos amarelos entre colchetes: OAB, endereço, horário, biografia (sobre.html, contato.html, rodapés).
+
+FOTOS REAIS (opcional)
+As "fotos" são ilustrações em CSS. Para usar foto: coloque em img/ e, no elemento da área, acrescente
+style="--img:url('img/foto.jpg')" (ex.: nas bolhas da index.html e no bloco .expand de cada página de área).
